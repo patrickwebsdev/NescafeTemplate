@@ -12,7 +12,7 @@
 </head>
 <body>
     <main id="screen__scroll">
-        <section class="screen">
+        <section class="screen" id="page1">
             <div class="screen__one">
                 <div class="screen__container">
                     <img class="screen__logo" src="./img/nescafe.png" alt="Nescafe Logo">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </section>
-        <section class="screen">
+        <section class="screen" id="page2">
             <div class="screen__two">
                 <div class="screen__container">
                     <img class="screen__taza" src="./img/taza-cafe.png" alt="Taza de cafe">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </section>
-        <section class="screen">
+        <section class="screen" id="page3">
             <div class="screen__three">
                 <h1 class="screen__title">Qué hace que tu <span class="screen__title screen__title--gold">NESCAFÉ Gold Tostado</span><br class="screen__br">Molido Equilibrado sea el mejor</h1>
                 <div class="screen__features">
@@ -71,9 +71,9 @@
         </section>
     </main>
     <div class="screen__nav">
-        <div class="screen__dot screen__dot--active"></div>
-        <div class="screen__dot"></div>
-        <div class="screen__dot"></div>
+        <div class="screen__dot screen__dot--active" data-page="#page1"></div>
+        <div class="screen__dot" data-page="#page2"></div>
+        <div class="screen__dot" data-page="#page3"></div>
     </div>
     <script src="scrollpage.min.js"></script>
     <script src="script.js"></script>
