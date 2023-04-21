@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    border-bottom: 1px solid #000;
+    scroll-snap-align: start;
     &__one {
         display: flex;
         flex-direction: row;
