@@ -31,6 +31,7 @@ body {
         width: 80%;
         height: 100vh;
         justify-content: space-evenly;
+        padding-top: 2em;
     }
     &__container {
         width: 50%;
@@ -240,7 +241,7 @@ body {
             margin-top: 1em;
         }
         &__img {
-            max-width: 35vw;
+            max-width: 28vw;
 
         }
         &__h2 {
@@ -260,6 +261,16 @@ body {
         }
         &__br {
             display: none;
+        }
+    }
+}
+@media (orientation: landscape) {
+    .screen {
+        &__p {
+            font-size: 0.8em;
+        }
+        &__title {
+            font-size: 1.5em;
         }
     }
 }
