@@ -264,7 +264,7 @@ body {
         }
     }
 }
-@media (orientation: landscape) {
+@media (max-height: 480px) and (orientation: landscape) {
     .screen {
         &__p {
             font-size: 0.8em;
